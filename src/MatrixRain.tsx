@@ -123,7 +123,9 @@ export function MatrixRainV12() {
           const updatedCOLUMNS = Math.floor(width / CELL_WIDTH);
           const updatedROWS = Math.floor(height / CELL_HEIGHT);
 
-          matrix = createMatrix(updatedCOLUMNS, updatedROWS); // Assign the matrix here
+          matrix = createMatrix(updatedCOLUMNS, updatedROWS);
+          const fontSize = Math.min(CELL_WIDTH, CELL_HEIGHT) + "px monospace";
+          context.font = fontSize;
 
           renderMatrix(matrix, context, canvas);
         };
