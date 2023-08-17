@@ -101,12 +101,10 @@ const MATRIX_CHARACTERS = [
   "ኅ",
   "ኆ",
   "ኈ",
-  "኉",
   "ኊ",
   "ኋ",
   "ኌ",
   "ኍ",
-  "኎",
   "ነ",
   "ኑ",
   "ኒ",
@@ -493,9 +491,7 @@ export function MatrixRainV12() {
         width={window.innerWidth}
         height={window.innerHeight}
         className="mb-4"
-      >
-        The iconic "Matrix" rain effect
-      </canvas>
+      ></canvas>
     </div>
   );
 }
