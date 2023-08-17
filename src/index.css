@@ -1,0 +1,36 @@
+/* index.css */
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  #root {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  .matrix-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .matrix-canvas {
+    color: #4ade80;
+  }
+  
