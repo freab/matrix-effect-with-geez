@@ -341,7 +341,7 @@ export function MatrixRainV12() {
           }
         }, FRAME_RATE);
 
-        context.font = "24px monospace";
+        context.font = "12px monospace";
 
         return () => {
           window.removeEventListener("resize", handleResize);
