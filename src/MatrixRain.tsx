@@ -341,7 +341,7 @@ export function MatrixRainV12() {
           }
         }, FRAME_RATE);
 
-        context.font = "24px monospace";
+        context.font = "17px monospace";
 
         return () => {
           window.removeEventListener("resize", handleResize);
@@ -403,7 +403,7 @@ export function MatrixRainV12() {
     }
   }
 
-  // ... (other functions)
+
 
   let tickCount = 0;
 
