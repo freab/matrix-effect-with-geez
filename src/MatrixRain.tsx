@@ -386,7 +386,7 @@ export function MatrixRainV12() {
     context: CanvasRenderingContext2D,
     canvas: HTMLCanvasElement
   ): void {
-    context.fillStyle = "rgb(0, 16, 0)";
+    context.fillStyle = "#000000";
     context.fillRect(0, 0, canvas.width, canvas.height);
 
     let x = 0;
